@@ -4,4 +4,3 @@ ENV MQSQL_ROOT_PASSWORD=ExpenseApp@1 \
     MYSQL_PASSWORD=ExpenseApp@1 \
     MYSQL_DATABASE=transactions
 COPY scripts/*.sql /docker-entrypoint-initdb.d/
-RUN sleep 1000
